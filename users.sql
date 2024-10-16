@@ -19,14 +19,15 @@
   TABLESPACE "SYSTEM" ;
 REM INSERTING into SYSTEM.USERS
 SET DEFINE OFF;
-Insert into SYSTEM.USERS (ID,USERNAME,EMAIL,PASSWORD,CREATED_AT) values ('1','testuser','testuser@example.com','password123',to_timestamp('13/10/24 21:09:32,526000000','DD/MM/RR HH24:MI:SSXFF'));
+Insert into SYSTEM.USERS (ID,USERNAME,EMAIL,PASSWORD,CREATED_AT) values ('1','testuser','testuser@example.com','password123',to_timestamp('14/10/24 22:10:47,141000000','DD/MM/RR HH24:MI:SSXFF'));
 Insert into SYSTEM.USERS (ID,USERNAME,EMAIL,PASSWORD,CREATED_AT) values ('2','test_user','test@example.com','password123',to_timestamp('14/10/24 00:33:57,759000000','DD/MM/RR HH24:MI:SSXFF'));
 Insert into SYSTEM.USERS (ID,USERNAME,EMAIL,PASSWORD,CREATED_AT) values ('3','fatima','fatima@gmail.com','1234',to_timestamp('16/10/24 14:30:24,818000000','DD/MM/RR HH24:MI:SSXFF'));
+Insert into SYSTEM.USERS (ID,USERNAME,EMAIL,PASSWORD,CREATED_AT) values ('4','fatimazahra','t@gmail.com','12344321',to_timestamp('16/10/24 14:52:41,165000000','DD/MM/RR HH24:MI:SSXFF'));
 --------------------------------------------------------
---  DDL for Index SYS_C008337
+--  DDL for Index SYS_C008322
 --------------------------------------------------------
 
-  CREATE UNIQUE INDEX "SYSTEM"."SYS_C008337" ON "SYSTEM"."USERS" ("ID") 
+  CREATE UNIQUE INDEX "SYSTEM"."SYS_C008322" ON "SYSTEM"."USERS" ("ID") 
   PCTFREE 10 INITRANS 2 MAXTRANS 255 COMPUTE STATISTICS 
   STORAGE(INITIAL 65536 NEXT 1048576 MINEXTENTS 1 MAXEXTENTS 2147483645
   PCTINCREASE 0 FREELISTS 1 FREELIST GROUPS 1
