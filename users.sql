@@ -1,5 +1,5 @@
 --------------------------------------------------------
---  Fichier créé - mardi-octobre-15-2024   
+--  Fichier créé - mercredi-octobre-16-2024   
 --------------------------------------------------------
 --------------------------------------------------------
 --  DDL for Table USERS
@@ -21,6 +21,7 @@ REM INSERTING into SYSTEM.USERS
 SET DEFINE OFF;
 Insert into SYSTEM.USERS (ID,USERNAME,EMAIL,PASSWORD,CREATED_AT) values ('1','testuser','testuser@example.com','password123',to_timestamp('13/10/24 21:09:32,526000000','DD/MM/RR HH24:MI:SSXFF'));
 Insert into SYSTEM.USERS (ID,USERNAME,EMAIL,PASSWORD,CREATED_AT) values ('2','test_user','test@example.com','password123',to_timestamp('14/10/24 00:33:57,759000000','DD/MM/RR HH24:MI:SSXFF'));
+Insert into SYSTEM.USERS (ID,USERNAME,EMAIL,PASSWORD,CREATED_AT) values ('3','fatima','fatima@gmail.com','1234',to_timestamp('16/10/24 14:30:24,818000000','DD/MM/RR HH24:MI:SSXFF'));
 --------------------------------------------------------
 --  DDL for Index SYS_C008337
 --------------------------------------------------------
